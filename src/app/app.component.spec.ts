@@ -1,5 +1,4 @@
 import { ComponentFixture } from '@angular/core/testing';
-// import { faker } from '@faker-js/faker';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { PlantaService } from './planta/planta.service';
 import { TestBed } from '@angular/core/testing';
@@ -30,10 +29,5 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('vivero');
   });
 
-  // it('should render title', () => {
-  //   const fixture = TestBed.createComponent(AppComponent);
-  //   fixture.detectChanges();
-  //   const compiled = fixture.nativeElement as HTMLElement;
-  //   expect(compiled.querySelector('.content span')?.textContent).toContain('vivero app is running!');
-  // });
+
 });
