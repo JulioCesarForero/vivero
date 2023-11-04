@@ -1,0 +1,18 @@
+.tileTable{
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #333A40;
+}
+
+.totalizadorPlantas{
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

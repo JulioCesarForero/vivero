@@ -1,3 +1,35 @@
-<p>
-  lista-planta works!
-</p>
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="tileTable">#</th>
+          <th class="tileTable">Nombre Común</th>
+          <th class="tileTable">Tipo</th>
+          <th class="tileTable">Clima</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let planta of plantas">
+          <td>
+            <dd>{{planta.id}}</dd>
+          </td>
+          <td>
+            <dd>{{planta.nombre_comun}}</dd>
+          </td>
+          <td>
+            <dd>{{planta.tipo}}</dd>
+          </td>
+          <td>
+            <dd>{{planta.clima}}</dd>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <p class="totalizadorPlantas">Total de plantas de interiror: {{ contarPlantasInteriores() }}</p>
+  <p class="totalizadorPlantas">Total de plantas de exterior: {{ contarPlantasExterior() }}</p>
+</div>

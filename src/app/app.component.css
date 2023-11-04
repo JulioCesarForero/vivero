@@ -22,4 +22,14 @@
 
 }
 
+.footer-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.footer-text {
+  color: #000;
+  font-weight: bold;
+}
 
