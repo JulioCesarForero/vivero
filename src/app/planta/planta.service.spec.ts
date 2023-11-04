@@ -26,7 +26,7 @@ describe('Service: Planta', () => {
     expect(service).toBeTruthy();
   });
 
-  it('should ...', inject([PlantaService], (service: PlantaService) => {
+  it('should inject PlantaService', inject([PlantaService], (service: PlantaService) => {
     expect(service).toBeTruthy();
   }));
 });
