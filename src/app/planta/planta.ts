@@ -28,11 +28,3 @@ export class Planta {
   }
 
 }
-
-// id                 ": 1,
-// nombre_comun       ": "Lengua de vaca",
-// nombre_cientifico  ": "Sansevieria Trifasciata",
-// tipo               ": "Interior",
-// altura_maxima      ": 140,
-// clima              ": "Templado, cálido",
-// sustrato_siembra   ": "Tierra orgánica con buen drenaje, arena, cascarilla de arroz"

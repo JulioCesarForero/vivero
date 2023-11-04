@@ -39,13 +39,13 @@ describe('AppComponent', () => {
   });
 
    it('should have 1 footer-container element', () => {
-     const FooterCount = debug.queryAll(By.css('.footer-container'));
-     expect(FooterCount.length).toBe(1); // 1 elementos con esa clase
+     const footerCount = debug.queryAll(By.css('.footer-container'));
+     expect(footerCount.length).toBe(1); // 1 elementos con esa clase
    });
 
    it('should have 1 header-app-vivero element', () => {
-    const HeaderImgCount = debug.queryAll(By.css('.header-app-vivero'));
-    expect(HeaderImgCount.length).toBe(1); // 1 elementos con esa clase
+    const headerImgCount = debug.queryAll(By.css('.header-app-vivero'));
+    expect(headerImgCount.length).toBe(1); // 1 elementos con esa clase
   });
 
 });

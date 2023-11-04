@@ -10,7 +10,7 @@ import { Planta } from './planta';
 })
 export class PlantaService {
 
-  private apiUrl: string = environment.baseUrl;
+  private apiUrl: string = environment.baseUrl + '202212_MISW4104_Grupo2.json';
 
   constructor(private http: HttpClient) { }
 

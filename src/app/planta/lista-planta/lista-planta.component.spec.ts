@@ -49,17 +49,22 @@ beforeEach(() => {
 
   it('should have 3 table rows', () => {
     const tableRows = debug.queryAll(By.css('tbody tr'));
-    expect(tableRows.length).toBe(3);
+    expect(tableRows.length).toBe(3); /* Pruebo registros de la tabla */
   });
 
-  it('should have 4 table columns', () => {
+  it('should have 4 table title head columns', () => {
     const tableColumns = debug.queryAll(By.css('thead th'));
-    expect(tableColumns.length).toBe(4);
+    expect(tableColumns.length).toBe(4); /* Pruebo columnas del titulo de la tabla */
+  });
+
+  it('should have 1 table head', () => {
+    const tableColumns = debug.queryAll(By.css('thead'));
+    expect(tableColumns.length).toBe(1); /* Pruebo encabezado de la tabla */
   });
 
   it('should have 2 totalizadorPlantas elements', () => {
     const totalizadorPlantasElements = debug.queryAll(By.css('.totalizadorPlantas'));
-    expect(totalizadorPlantasElements.length).toBe(2); // 2 elementos con esa clase
+    expect(totalizadorPlantasElements.length).toBe(2); /* Pruebo totalizadores de plantas */
   });
 
 });

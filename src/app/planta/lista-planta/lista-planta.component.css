@@ -1,11 +1,18 @@
-.tileTable{
+.tableHeader {
+  background-color: #333A40;
+  color: #ffffff;
+  height: 50px;
+}
+
+.titleTable {
   color: #ffffff;
   font-family: sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  background: #333A40;
+  background-color: #333A40;
+  padding-bottom: 12px;
 }
 
 .totalizadorPlantas{
